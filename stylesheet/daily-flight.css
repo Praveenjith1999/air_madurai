@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    scroll-behavior: smooth;
+
+}
+:root {
+    --white-background: rgba(223, 216, 216, 0.26);
+    --blue-contrast: rgb(45, 45, 143);
+    --h4fontsixe :15px;
+    --h2fontsixe :22px;
+
+}
+
+.nav{
+    height: 130px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.87) ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+
+
+}
+.head{
+    width: 50%;
+}
+.head h1{
+    color: white;
+    text-indent: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.menu{
+    width: 50%;
+}
+.ul{
+
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.li{
+    list-style-type: none;
+}
+.li a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    transition: all 250ms linear;
+   
+}
+.li a:hover{
+    background-color: var(--white-background);
+    border-radius: 20px;
+}
+.flight{
+    height: 150px;
+    width: 96%;
+    margin: auto;
+    box-shadow: 6px 6px 5px  grey;
+    border-radius: 20px;
+    margin-top: 25px;
+
+    
+  
+}
+.daily-flt1{
+    color: var(--blue-contrast);
+    text-indent: 70px;
+}
+.daily-flt2{
+    color: var(--blue-contrast);
+    text-indent: 70px;
+}
+
+.flight-num h2{
+    color:  var(--blue-contrast);
+    font-size: var(--h2fontsixe);
+
+
+}
+.side1{
+     width: 60%;
+     height: 150px;
+     display: flex;
+ 
+
+}
+.departure,.arrival{
+    width: 30%;
+    height: 150px;
+    text-align: center;
+    padding: 3px;
+    color: red;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.departure h4,.arrival h4{
+    
+    font-weight: bold;
+
+}
+.departure h2,.arrival h2{
+    
+    font-weight: bold;
+
+}
+.btn{
+   
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.btn a{
+    color: white;
+     
+}
+.timing{
+    width: 60%;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.timing i,p{
+    font-size: 12px;
+    color: red;
+}
+.timing p{
+    padding: 4px;
+    background-color: whitesmoke;
+
+
+}
+.timing a{
+    text-decoration: none;
+    color: red;
+}
+.waiting-time{
+    padding: 4px;
+    background-color: whitesmoke;
+    filter: opacity(.5);
+
+}
+.side2{
+    width: 40%;
+    height: 150px;
+    display: flex;
+}
+.economy,.business,.premium{
+    width: 34.33%;
+    height: 150px;
+    border:0px 1px 0px 1px solid;
+   
+}
+
+.flight-timing{
+    display: flex;
+}
+.features{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    height: 130px;
+    text-align: center;
+    color: red;
+
+}
+.class h4{
+    background-color: rgba(255, 0, 0, 0.849);
+    color: white;
+    margin-left: 1px;
+    text-align: center;
+    border-radius: 3px;
+}
+.class h3{
+    font-weight: bold;
+}
+.business p i{
+    padding: 3px;
+}
+.premium p i{
+    padding: 3px;
+}
+.economy{
+    background-color: rgba(83, 224, 177, 0.384);
+}
+.premium{
+    background-color: rgba(243, 143, 143, 0.363);
+}
+.business{
+    background-color: rgba(238, 130, 238, 0.349);
+}
+.to-top i{
+    font-size: 60px;
+    color: red;
+    font-weight: bold;
+  
+}
+.to-top{
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+}
+
+
+footer {
+    text-align: center;
+    height: 200px;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.76);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.ftr1 p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.ftr1 i {
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.fb {
+    color: blue;
+    filter: brightness(0%);
+}
+
+.x {
+    color: white;
+    filter: brightness(0%);
+}
+
+.wts {
+    color: green;
+    filter: brightness(0%);
+}
+
+.snap {
+    color: yellow;
+    filter: brightness(0%);
+}
+
+.insta {
+    color: purple;
+    filter: brightness(0%);
+}
+
+.ftr span {
+    font-size: 15px;
+    color: black;
+    font-weight: 300;
+
+}
+.ftr2 a{
+   text-decoration: none;
+   color: white;
+}
